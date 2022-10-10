@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+/*Botão sair (gambiarra fique a vontade para ajustar)*/
+
+/* Dei uma mexida no botão, vê se ficou legal pra ti */
+.btnSair {
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 20px;
+}
+.Sair{ 
+
+    width: 40px;
+    height: 40px;
+}
+
+/*Fim Botão sair*/
+/* O overflow vai fazer a página não ter um scroll */
+body{
+    overflow: hidden;
+}
+.conteiner {
+    width: 100%;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lastQuest{
+    width: 100%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxprincipal {
+    margin-top: 15vh;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(244, 232, 232);
+}
+
+.pergunta {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 2rem;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+
+.respostasgroup {
+    width: 95%;
+    height: auto;
+    margin: 8px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cartaoresposta {
+    width: 255px;
+    height: 135px;
+    margin: 12px;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    border: solid 1px black;
+    border-radius: 14px;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+
+.cartaoresposta:hover > p {
+    font-size: 18px;
+    margin: -2px;
+    transition-duration: 0.2s;
+    color: rgb(214, 214, 214);
+}
+
+.cartaoresposta:hover {
+    background-color: rgb(48, 216, 48);
+    border: 2px solid green;
+    border-radius: 14px;
+    box-shadow: 1px 1px;
+}
+
+.cartaoresposta:active {
+    background-color: rgb(27, 199, 27);
+}

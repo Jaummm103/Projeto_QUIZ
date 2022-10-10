@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style_cadastro.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="formulario">
+
+        <form action="perguntas.html" method="post" >
+            <div class="nome">
+                <input type="text" placeholder="Digite seu nome" required>
+                <span class="linhaBase"></span>
+            </div>
+
+            <div class="curso">
+                <select name="Curso" id="curso" required>
+                    <option value="">Selecione seu Curso</option>
+                    <option value="CC">Ciência da Computação</option>
+                    <option value="DG">Design Gráfico</option>
+                    <option value="ADM">Administração</option>
+                    <option value="JD">Jogos Digitais</option>
+                    <option value="FT">Fotografia</option>
+                </select>
+            </div>
+            <button type="submit" class="btnOver">
+                <a href="/Perguntas" class="btnIniciar">
+                    Iniciar
+                </a>
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>

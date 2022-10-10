@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style_perguntas.css">
+    <title>Quiz</title>
+</head>
+<body>
+
+    <div class="btnSair">
+        <a href="/Inicio">
+            <img src="imagens/btn_sair.png" alt="Sair" title="Sair" class="Sair">
+        </a>
+    </div>
+
+    <div class="conteiner">
+        <div class="boxprincipal">
+            <div class="pergunta"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+    
+            <div class="respostasgroup">
+                <!-- Aqui modifiquei o tipo de resposta, pra conseguir redirecionar para a proxima pergunta -->
+                <!-- Eu acredito que se usarmos o Value, conseguimos compensar os botões -->
+                <a href="#quest2" class="cartaoresposta" id="resposta1" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="#quest2" class="cartaoresposta" id="resposta2" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="#quest2" class="cartaoresposta" id="resposta3" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="#quest2" class="cartaoresposta" id="resposta4" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Aqui um placeholder pra servir de âncora para o rolamento -->
+    <p id="quest2"></p>
+
+    <div class="conteiner">
+        <div class="boxprincipal">
+            <div class="pergunta"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+    
+            <div class="respostasgroup">
+                <a href="#quest3" class="cartaoresposta" id="resposta1" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="#quest3" class="cartaoresposta" id="resposta2" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="#quest3" class="cartaoresposta" id="resposta3" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="#quest3" class="cartaoresposta" id="resposta4" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <p id="quest3"></p>
+
+    <div class="conteiner">
+        <div class="boxprincipal">
+            <div class="pergunta"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+    
+            <div class="respostasgroup">
+                <a href="#quest4" class="cartaoresposta" id="resposta1" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="#quest4" class="cartaoresposta" id="resposta2" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="#quest4" class="cartaoresposta" id="resposta3" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="#quest4" class="cartaoresposta" id="resposta4" value="X"s>
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <p id="quest4"></p>
+
+    <div class="conteiner" id="lastQuest">
+        <div class="boxprincipal">
+            <div class="pergunta"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+    
+            <div class="respostasgroup">
+                <a href="/Inicio" class="cartaoresposta" id="resposta1" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="/Inicio" class="cartaoresposta" id="resposta2" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="/Inicio" class="cartaoresposta" id="resposta3" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+                <a href="/Inicio" class="cartaoresposta" id="resposta4" value="X">
+                    <p>(A)</p> 
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        
+        $('cartaoresposta').on('click', function() {
+            $('body').css('cartaoresposta', '#111111');
+            
+        }); 
+    </script> 
+</body>
+</html>

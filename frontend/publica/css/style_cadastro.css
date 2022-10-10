@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    width: 100%;
+    overflow: hidden;
+}
+
+.formulario {
+    width: 100%;
+    height: 300px;
+    margin: 10% auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario form{
+    border: solid 2px rgb(116, 116, 116);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.linhaBase {
+    width: 290px;
+    height: 1px;
+    position: absolute;
+    margin-top: 38px;
+    background-color: #f03232;  
+}
+
+.nome {
+    width: 350px;
+    height: 40px;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curso {
+    width: 300px;
+    height: 40px;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nome > input  {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-size: 12pt;
+    border:  none;
+}
+
+.nome > input:focus {
+    outline: none;
+}
+
+select {
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12pt;
+    border-radius: 10px;
+    border: none;
+}
+.btnOver{
+    border-radius: 18px;
+    background: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+.btnOver:hover{
+    background-color: #f03232;
+    color: white;
+    transition-duration: 0.3s;
+
+}
+.btnIniciar {
+    width: 85px;  
+    border: none;
+    border-radius: 18px;
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    height: 40px;
+    font-size: 16pt;  
+}
+
+.btnIniciar:hover {
+    background-color: #f03232;
+    color: white;
+    transition-duration: 0.3s;
+}
+
