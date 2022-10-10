@@ -22,6 +22,14 @@ Os alunos também usarão ferramentas de versionamento de código durante o dese
 
 - [pedrohps19](https://github.com/pedrohps19)
 
+- [Gabriel-Gallego-V](https://github.com/Gabriel-Gallego-V)
+
+- [Eduzes](https://github.com/Eduzes)
+
+- [Gabriel-GitHub2021](https://github.com/Gabriel-GitHub2021)
+
+- [DerickBerezansky](https://github.com/DerickBerezansky)
+
 #### BackEnd
 
 - [Jaummm103](https://github.com/Jaummm103)
@@ -29,6 +37,10 @@ Os alunos também usarão ferramentas de versionamento de código durante o dese
 - [ThiagoAbdul](https://github.com/ThiagoAbdul)
 
 - [NicolasYK](https://github.com/NicolasYK)
+
+- [Pedrucs](https://github.com/Pedrucs)
+
+- [Enila03](https://github.com/Enila03)
 
 #### Banco de Dados
 
@@ -38,4 +50,12 @@ Os alunos também usarão ferramentas de versionamento de código durante o dese
 
 - [Felipe-Harms](https://github.com/Felipe-Harms)
 
+- [Casimiro01](https://github.com/Casimiro01)
 
+- [AlexandreF-etec](https://github.com/AlexandreF-etec)
+
+- [RenanVasquez19](https://github.com/RenanVasquez19)
+
+- [Rhodney-Araujo](https://github.com/Rhodney-Araujo)
+
+- [zbaumer](https://github.com/zbaumer)
