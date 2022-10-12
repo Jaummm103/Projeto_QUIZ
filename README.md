@@ -38,8 +38,6 @@ Os alunos também usarão ferramentas de versionamento de código durante o dese
 
 - [NicolasYK](https://github.com/NicolasYK)
 
-- [Pedrucs](https://github.com/Pedrucs)
-
 - [Enila03](https://github.com/Enila03)
 
 #### Banco de Dados
